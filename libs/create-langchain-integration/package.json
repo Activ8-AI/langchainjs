@@ -14,7 +14,7 @@
     "format:check": "prettier --config .prettierrc --check \"./helpers\"",
     "lint:eslint": "eslint --cache  ./helpers",
     "lint": "eslint --cache  ./helpers",
-    "lint:fix": "eslint --cache --fix --ext .ts,.js ./helpers"
+    "lint:fix": "eslint --cache --fix ./helpers"
   },
   "devDependencies": {
     "@langchain/eslint": "workspace:*",
